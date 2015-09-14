@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+  "description": "MvcService Console Application",
+  "authors": [
+    "bassj"
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "commands": {
+    "MvcService": "MvcService"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.ServiceProcess": "4.0.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "MvcService": "1.0.0"
+  },
+  "entryPoint": "MvcService",
+  "loadable": false
+}
